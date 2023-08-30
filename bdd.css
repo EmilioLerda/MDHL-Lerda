@@ -1,0 +1,107 @@
+html{
+    align-items: center;
+  }
+  
+  h1{
+    font-size: 40px;
+    font-family: 'Cambria' ;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+  }   
+
+  
+  h2{
+    font-family:  'Cambria';
+  }
+  
+  p, li, h4, a  {
+    font-family: 'Cambria' ;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+  
+  }
+  
+  body {
+    font-size: 20px;
+    text-align: center;
+    background-color: #f2f2f2;
+    color: #333333;   
+  }
+  
+ 
+  /* Barra de navegación */
+  
+  nav ul {
+    list-style: none;
+    display: flex; 
+    justify-content: center;
+    padding: 15px;
+  }
+  
+  nav ul li {
+    position: relative; 
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  nav ul li ul.dropdown-menu {
+    font-family: 'Cambria';
+    text-decoration: none;
+    display: none;
+    position: absolute;
+    padding-left: 50px;
+    top: 100%;
+    left: 0; 
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    cursor: pointer;
+  }
+  
+  nav ul li:hover > ul.dropdown-menu {
+    display: block;
+  }
+  
+  nav ul li ul.dropdown-menu li {
+    width: 100%;
+   
+  }
+  
+  nav ul li ul.dropdown-menu li a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+   
+  }
+  
+  nav ul li ul.dropdown-menu li a:hover {
+    background-color: #ddd;
+  
+  }
+  
+  .dropdown{
+    justify-content: center;
+  }
+  
+  
+  /* Imagen */
+  
+  img{ 
+  text-align: center;
+  margin-top: 0%;
+  padding: 20px;  
+  }
+  .flexx{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  
